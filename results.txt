@@ -1,0 +1,24 @@
+             H2O
+Gate count without using any optimization
+{'u1': 46, 'u2': 64, 'u3': 64, 'cx': 232}
+Gate count using transpiler
+{'u1': 36, 'u2': 40, 'u3': 42, 'cx': 232}
+Gate count using the optimization based on the structure of the fermionic problem
+{'u1': 36, 'u2': 36, 'u3': 35, 'cx': 160 }
+
+            NH3
+Gate count without using any optimization
+{'u1': 108, 'u2': 184, 'u3': 184, 'cx': 600}
+Gate count using transpiler
+{'u1': 92,  'u2': 106, 'u3': 126, 'cx': 600}
+Gate count using the optimization based on the structure of the fermionic problem
+{'u1': 92,  'u2': 110, 'u3': 86,  'cx': 352}
+
+            CH4
+Gate count without using any optimization
+{'u1': 130, 'u2': 224, 'u3': 224, 'cx': 800}
+Gate count using transpiler
+{'u1': 114, 'u2': 126, 'u3': 156, 'cx': 800}
+Gate count using the optimization based on the structure of the fermionic problem
+{'u1': 114, 'u2': 128, 'u3': 118, 'cx': 616}
+
